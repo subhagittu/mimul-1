@@ -1,0 +1,111 @@
+# Helper script to generate all inner pages for MIMUL website modernization
+# This creates consistent nav/footer across all pages
+
+$navTemplate = @'
+<!-- Announcement Bar -->
+<div class="announcement-bar">
+  <span class="scroll-text">🥛 An Operation Flood Project, Government of West Bengal &nbsp;&nbsp;•&nbsp;&nbsp; Welcome to MIMUL — Milk of Midnapore &nbsp;&nbsp;•&nbsp;&nbsp; Natural Cow Milk</span>
+</div>
+
+<!-- Modern Navbar -->
+<nav class="modern-nav" id="main-nav">
+  <div class="nav-container">
+    <a href="main page mimul.html" class="nav-brand">
+      <img src="./main page mimul_files/113039mimul_logo.png" alt="MIMUL Logo">
+      <div class="nav-brand-text">
+        <span class="brand-title">MILK OF MIDNAPORE</span>
+        <span class="brand-sub">Natural Cow Milk</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="main page mimul.html">Home</a></li>
+      <li>
+        <a href="#">About Us <span class="drop-arrow">▾</span></a>
+        <ul class="nav-dropdown">
+          <li><a href="profile mimul.html">Profile</a></li>
+          <li><a href="chairman message.html">Chairman Message</a></li>
+          <li><a href="board of directors.html">Board of Directors</a></li>
+          <li><a href="values.html">Values</a></li>
+          <li><a href="our team.html">Our Team</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Medini Products <span class="drop-arrow">▾</span></a>
+        <ul class="nav-dropdown">
+          <li><a href="medini products milk.html">Milk</a></li>
+          <li><a href="mesini products ghee.html">Ghee</a></li>
+          <li><a href="medini products doi.html">Doi</a></li>
+          <li><a href="medini products paneer.html">Paneer</a></li>
+          <li><a href="medini products lassi.html">Lassi</a></li>
+          <li><a href="medini products peda.html">Peda</a></li>
+        </ul>
+      </li>
+      <li><a href="tender.html">Tender</a></li>
+      <li><a href="notice_circular.html">Notice / Circular</a></li>
+      <li><a href="photos mimul.html">Photos</a></li>
+      <li><a href="videos mimul.html">Videos</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <button class="theme-toggle" id="theme-toggle-btn" title="Toggle Theme">🌙</button>
+      <button class="nav-mobile-toggle" id="nav-mobile-toggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+'@
+
+$footerTemplate = @'
+<!-- Footer -->
+<footer class="modern-footer">
+  <div class="footer-main">
+    <div class="footer-col">
+      <h4>Information</h4>
+      <a href="main page mimul.html">Home</a>
+      <a href="profile mimul.html">Profile</a>
+      <a href="chairman message.html">Chairman Message</a>
+      <a href="board of directors.html">Board of Directors</a>
+      <a href="values.html">Values</a>
+      <a href="our team.html">Our Team</a>
+      <a href="tender.html">Tender</a>
+      <a href="notice_circular.html">Notice / Circular</a>
+      <a href="photos mimul.html">Photos</a>
+      <a href="videos mimul.html">Videos</a>
+    </div>
+    <div class="footer-col">
+      <h4>Our Products</h4>
+      <a href="medini products milk.html">&rarr; Milk</a>
+      <a href="mesini products ghee.html">&rarr; Ghee</a>
+      <a href="medini products doi.html">&rarr; Doi</a>
+      <a href="medini products paneer.html">&rarr; Paneer</a>
+      <a href="medini products lassi.html">&rarr; Lassi</a>
+      <a href="medini products peda.html">&rarr; Peda</a>
+      <br>
+      <h4>Useful Links</h4>
+      <a href="http://www.paschimmedinipur.gov.in/" target="_blank">&rarr; paschimmedinipur.gov.in</a>
+      <a href="http://www.benmilk.com/" target="_blank">&rarr; benmilk.com</a>
+      <a href="http://www.nddb.coop/" target="_blank">&rarr; nddb.coop</a>
+    </div>
+    <div class="footer-col">
+      <h4>Reach Us</h4>
+      <p><strong>The Midnapore Co-operative Milk Producers' Union Ltd.</strong><br>
+      Ashoknagar, Midnapore, Dist.-Paschim Medinipur, Pin-721101. West Bengal</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <p>&#x1F4DE; PHONE<br><a href="tel:03222275697" class="footer-phone">+91-03222 275697</a></p>
+      <p>&#x1F4F1; HELPLINE<br><a href="tel:09476110259" class="footer-phone">+91 94761 10259</a></p>
+      <p>&#x1F4F1; CUSTOMER CARE<br><a href="tel:09475396977" class="footer-phone">+91 94753 96977</a></p>
+      <p>&#x2709;&#xFE0F; EMAIL<br><a href="mailto:sales@mimulmilk.in" class="footer-phone">sales@mimulmilk.in</a></p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/mimul.milk" target="_blank"><img src="./main page mimul_files/113039mimul_facebook.png" alt="Facebook"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 The Midnapore Co-operative Milk Producers' Union Ltd. | Powered by calcuttayellowpages.com</p>
+  </div>
+</footer>
+<button class="back-to-top" id="back-to-top" title="Back to Top">&uarr;</button>
+<script src="./theme-toggle.js"></script>
+'@
+
+Write-Host "Templates ready. Pages will be generated individually."

@@ -1,0 +1,38 @@
+		
+        .jd-slider {
+			width:100%;
+			max-width:700px;
+            margin:0 auto;
+        }
+
+        .jd-slider .slide-inner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+        }
+
+        .jd-slider .slide-area > li {
+            border-left: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .jd-slider .slide-area > li:first-child {
+            border-left:0;
+        }
+
+        .jd-slider .slide-area > li > a {
+            display: block;
+            font-size: 3em;
+            font-weight: bold;
+            outline: 0;
+			height:500px;
+        }
+
+        .jd-slider .controller {
+            margin: 0 0 0 0;
+        }

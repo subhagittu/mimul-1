@@ -1,0 +1,2036 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+header, nav, footer, section, aside, article{
+	display:block;
+}
+body{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:17px;
+	line-height:35px;
+	color:#646464;
+}
+a{
+	-webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	-o-transition: all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out;
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+.wrapper{
+	width:100%;
+	max-width:1160px;
+	margin:0 auto;
+}
+.specer{
+	font-size:0;
+	line-height:0;
+	clear:both;
+}
+.scrollBg{
+	background:#924595;
+	padding:8px 0;
+}
+.scrollTxt{
+	font-size:17px;
+	line-height:26px;
+	color:#fff;
+	font-weight:700;
+}
+.top_bg{
+	background:url(113039top_bg.jpg) 100% 0% no-repeat;
+	padding-top:20px;
+	height:508px;
+}
+.headerWrap{
+	width:100%;
+	max-width:1160px;
+	font-family: 'Nanum Gothic', sans-serif;
+	margin:0 auto;
+}
+.logoCont{
+	width:100%;
+	max-width:200px;
+	float:left;
+	margin-left:50px;
+	margin-right:80px;
+}
+.estdTxt{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:20px;
+	line-height:30px;
+	color:#352736;
+	font-weight:600;
+	text-align:center;
+}
+.nameCont{
+	width:100%;
+	max-width:550px;
+	float:left;
+	text-align:center;
+}
+.milk_midnapore{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:40px;
+	line-height:40px;
+	color:#811085;
+	font-weight:800;
+	padding-bottom:10px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.natural_cow_milk{
+	background:url(113039natural_cow_milk_bg.png) 50% 0 no-repeat;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:16px;
+	line-height:30px;
+	color:#fff;
+	font-weight:800;
+	text-align:center;
+	text-transform:uppercase;
+}
+.companyName{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:17px;
+	line-height:36px;
+	color:#0a40af;
+	font-weight:800;
+	padding-top:5px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:100px;
+	float:right;
+}
+.navBg{
+	background:#5a1d5c;
+}
+.welcomeBg{
+	background:url(113039introduction_bg.jpg) 50% 100% no-repeat #fff;
+	padding-top:60px;
+	padding-bottom:220px;
+}
+.welcomeWrap{
+	width:100%;
+	max-width:1160px;
+	margin:0 auto;
+}
+.yearsCont{
+	width:100%;
+	max-width:292px;
+	float:left;
+}
+.milkOutlet{
+	padding-top:20px;
+}
+.welcomeTxtCont{
+	width:100%;
+	max-width:420px;
+	float:left;
+	margin:0 64px;
+}
+.welcomeTxt{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:16px;
+	line-height:28px;
+	color:#646464;
+	text-align:justify;
+	font-weight:400;
+}
+.viewMoreBtn{
+	background:#0169b0;
+	padding:5px 8px;
+	font-size:13px;
+	line-height:18px;
+	color:#fff;
+	margin-top:10px;
+	display:inline-block;
+}
+.videoBox{
+	width:100%;
+	max-width:320px;
+	float:right;
+	margin-top:-20px;
+}
+.chairmanBg{
+	background:#f7f7f7;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+.chairmanWrap{
+	width:100%;
+	max-width:1160px;
+	margin:0 auto;
+}
+.chairmanLft{
+	width:100%;
+	max-width:360px;
+	float:left;
+}
+.chairmanHead{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:35px;
+	line-height:45px;
+	color:#0169b0;
+	font-weight:800;
+	padding-bottom:10px;
+	text-transform:uppercase;
+}
+.chairmanTxt{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:17px;
+	line-height:30px;
+	color:#000;
+	text-align:justify;
+	font-weight:500;
+}
+.chairmanTxtCont{
+	width:100%;
+	max-width:700px;
+	float:right;
+}
+.chairmanPicCont img{
+	width:100%;
+	height:auto;
+}
+.viewMoreChair{
+	background:#0169b0;
+	padding:5px 8px;
+	font-size:13px;
+	line-height:18px;
+	color:#fff;
+	margin-top:20px;
+	display:inline-block;
+}
+
+.homeProductBg{
+	background:url(113039product_bg.jpg) 50% 80% no-repeat #ad5ab0;	
+	padding-top:80px;
+	padding-bottom:100px;
+}
+.homeProductWrap{
+	width:100%;
+	max-width:700px;
+	margin:0 auto;
+}
+.homeProductHead{
+	font-family: 'Great Vibes', cursive;
+	font-size:85px;
+	line-height:85px;
+	text-shadow: 1px 1px 0 #000;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+.homeProductTag{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:17px;
+	line-height:26px;
+	color:#fff;
+	font-weight:700;
+	text-align:center;
+	text-transform:uppercase;
+}
+footer{
+	font-family: 'Nanum Gothic', sans-serif;
+	background:#5a1d5c;
+	padding:50px 0 70px 0;
+}
+.ftrWrap{
+	width:100%;
+	max-width:1160px;
+	margin:0 auto;
+}
+.ftrCont01{
+	width:100%;
+	max-width:220px;
+	float:left;
+	margin-right:65px;
+}
+.ftrCont02{
+	width:100%;
+	max-width:260px;
+	float:left;
+	margin-right:50px;
+}
+.ftrCont03{
+	width:100%;
+	max-width:285px;
+	float:left;
+	margin-right:50px;
+}
+.ftrCont04{
+	width:100%;
+	max-width:210px;
+	float:right;
+}
+.footerBtn{
+	font-size:17px;
+	line-height:37px;
+	font-weight:500;
+	color:#fff;
+}
+.footerBtn01{	
+	font-size:17px;
+	line-height:40px;
+	font-weight:500;
+	color:#fff;
+}
+.footerHead{
+	font-size:22px;
+	line-height:32px;
+	font-weight:600;
+	color:#fff;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #fff;
+}
+.footerText{
+	font-size:17px;
+	line-height:33px;
+	font-weight:400;
+	color:#fff;
+}
+.footerLnk{
+	font-size:17px;
+	line-height:35px;
+	font-weight:400;
+	color:#fff;
+}
+.power{
+	border-radius:15px;
+	font-size:14px;
+	line-height:25px;
+	font-weight:500;
+	color:#fff;
+	font-style:italic;
+	display:inline-block;
+	margin-top:25px;
+}
+
+
+/* Inner Page*/
+.inner_top_bg{
+	background:url(113039inner_top_bg.jpg) 0 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:90px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:144px;
+	float:left;
+	margin-right:120px;
+}
+.innerBg{
+	background:url(113039introduction_bg.jpg) 50% 100% no-repeat #fff;
+	padding-top:50px;
+	padding-bottom:230px;
+}
+.innerCont{
+	width:100%;
+	max-width:1160px;
+	margin:0 auto;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.innerHeading{
+	font-size:35px;
+	line-height:45px;
+	color:#5a1d5c;
+	font-weight:700;
+	margin-bottom:15px;
+	text-transform:uppercase;
+}
+.innerText{
+	font-size:17px;
+	line-height:33px;
+	color:#000;
+	font-weight:500;
+}
+.mimulBg{
+	background:url(113039about_mimul_bg.jpg) 50% 0 no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.8);
+	max-width:100%;
+	width:1100px;
+	padding:50px 30px;
+}
+.innerText02{
+	font-size:17px;
+	line-height:40px;
+	color:#101010;
+	font-weight:500;
+}
+.valueBox{
+	background:#924595;
+	width:100%;
+	max-width:345px;
+	float:left;
+	margin-bottom:30px;
+	margin-right:20px;
+	padding-left:10px;
+	border-left:8px solid #dff972;
+}
+.valueText{
+	background:url(113039values_icon.png) 0 50% no-repeat;
+	padding-left:50px;
+	font-size:17px;
+	line-height:55px;
+	color:#fff;
+	font-weight:400;
+}
+.mimulProductWrap{
+	width:100%;
+	max-width:1160px;
+	float:left;
+	margin-top:25px;
+	margin-bottom:30px;
+}
+.mimulProduct{
+	width:100%;
+	max-width:700px;
+	float:left;
+}
+.productCircle{
+	background: #0b79ce;
+	text-align:center;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+	font-family: 'Nanum Gothic', sans-serif;
+	color:#fff;
+	font-size:22px;
+	float:left;
+	float:left;
+	margin-right:10px;
+}
+.mimulProductName{
+	font-size:22px;
+	line-height:40px;
+	color:#0b79ce;
+	font-weight:700;
+	margin-bottom:15px;
+}
+.mimulProductPic{
+	width:100%;
+	max-width:400px;
+	float:right;
+}
+.mimulProductPic img{
+	width:100%;
+	height:auto;
+}
+.mimulUse{
+	font-size:16px;
+	line-height:25px;
+	color:#FF0000;
+	font-weight:900;
+	padding-top:10px;
+	text-transform:uppercase;
+}
+
+/*Product Specification Start*/
+h6 {
+  	margin: 0;
+  	color:#000;
+	border-bottom:1px solid #000;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+h6 a {
+  	display: block;
+  	padding: 10px 0;
+  	color:#000;
+	font-size:17px;
+	line-height:30px;
+	font-weight:900;
+	text-transform:uppercase;
+	background:url(113039down_arrow.png) 100% 50% no-repeat;
+}
+
+h6:hover { background: #fff;  }
+h6.open  { background: #fff;}
+h6 + div { padding: 10px 0 0 0; }
+
+
+/* Pre hide sections with JavaScript on
+--- */
+h6+div {
+  display: none;
+}
+
+/* CSS3 Animation example
+--- */
+#css3-animated-example h6 + div {
+  height: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: #000;
+  display: block!important;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.3s ease;
+  moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition:all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#css3-animated-example .content {
+  padding: 10px 0;
+}
+
+#css3-animated-example h6.open + div {
+  height: auto;
+  background: #fff;
+}
+
+#default-example{
+	margin-bottom:10px;
+}
+/*Product Specification End*/
+
+.paneerAdWrap{
+	width:100%;
+	max-width:700px;
+	float:left;
+	margin-bottom:30px;
+}
+.paneerAdBox{
+	width:100%;
+	max-width:130px;
+	height:140px;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+}
+.paneerAdTxt{
+	font-size:15px;
+	line-height:21px;
+	color:#000;
+}
+.videoCont{
+	width:100%;
+	max-width:360px;
+	float:left;
+	margin-right:30px;
+	margin-top:20px;
+}
+.contactLft{
+	width:100%;
+	max-width:750px;
+	float:left;
+}
+.contactRgt{
+	width:100%;
+	max-width:400px;
+	float:right;
+}
+.photocont{
+	width:100%;
+	max-width:340px;
+	float:left;
+	margin-top:25px;
+}
+.photocont img{
+	width:100%;
+	height:auto;
+}
+.inrChairmanTxt{
+	font-size:16px;
+	line-height:28px;
+	font-weight:400;
+	color:#1b4ea2;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive CSS*/
+
+@media screen and (max-width:1200px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+}
+
+
+
+@media screen and (max-width:1199px) and (min-width:992px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+.scrollTxt{
+	font-size:18px;
+	line-height:26px;
+	font-weight:400;
+}
+.top_bg{
+	background:url(113039top_bg.jpg) 10% 0% no-repeat;
+	padding-top:20px;
+	height:510px;
+}
+.logoCont{
+	width:100%;
+	max-width:180px;
+	float:left;
+	margin-left:70px;
+	margin-right:30px;
+}
+.logoCont img{
+	width:100%;
+	height:auto;
+}
+.estdTxt{
+	font-size:20px;
+	line-height:30px;
+	font-weight:600;
+	text-align:center;
+}
+.nameCont{
+	width:100%;
+	max-width:490px;
+	float:left;
+}
+.milk_midnapore{
+	font-size:35px;
+	line-height:40px;
+	font-weight:800;
+	padding-bottom:5px;
+}
+.natural_cow_milk{
+	font-size:16px;
+}
+.companyName{
+	font-size:16px;
+	line-height:25px;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:80px;
+	float:right;
+}
+.biswaBanglaCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeBg{
+	background:url(113039introduction_bg_992.jpg) 50% 100% no-repeat #fff;
+	padding-top:60px;
+	padding-bottom:150px;
+}
+.yearsCont{
+	width:100%;
+	max-width:200px;
+	float:left;
+}
+.yearsCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeTxtCont{
+	width:100%;
+	max-width:320px;
+	float:left;
+	margin:0 30px;
+}
+.welcomeTxt{
+	font-size:16px;
+	line-height:28px;
+	text-align:justify;
+	font-weight:400;
+}
+.videoBox{
+	width:100%;
+	max-width:310px;
+	float:right;
+	margin-top:0px;
+}
+.chairmanTxtCont{
+	width:100%;
+	max-width:500px;
+	float:right;
+}
+.chairmanHead{
+	font-size:32px;
+	line-height:42px;
+	font-weight:800;
+}
+.homeProductBg{
+	background:url(113039product_bg.jpg) 50% 100% no-repeat #ad5ab0;	
+	padding-top:80px;
+	padding-bottom:245px;
+}
+.ftrCont02{
+	width:100%;
+	max-width:280px;
+	float:left;
+	margin-right:0px;
+}
+.ftrCont03{
+	width:100%;
+	max-width:250px;
+	float:right;
+	margin-right:0px;
+}
+.ftrCont04{
+	width:100%;
+	max-width:240px;
+	float:left;
+	clear:both;
+	margin-top:50px;
+}
+.inner_top_bg{
+	background:url(113039inner_top_bg_992.jpg) 0 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:55px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:120px;
+	float:left;
+	margin-right:80px;
+}
+.inrLogoCont img{
+	width:100%;
+	height:auto;
+}
+.innerBg{
+	background:url(113039introduction_bg_992.jpg) 50% 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:150px;
+}
+.innerHeading{
+	font-size:30px;
+	line-height:40px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.8);
+	max-width:99%;
+	padding:50px 30px;
+}
+.mimulProduct{
+	width:100%;
+	max-width:500px;
+	float:left;
+}
+.mimulProductPic{
+	width:100%;
+	max-width:350px;
+	float:right;
+}
+.paneerAdBox{
+	width:100%;
+	max-width:100px;
+	height:140px;
+}
+
+}
+
+
+
+@media screen and (max-width:991px) and (min-width:768px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+.scrollTxt{
+	font-size:17px;
+	line-height:25px;
+	font-weight:400;
+}
+.top_bg{
+	background:url(113039top_bg.jpg) 50% 40% no-repeat;
+	padding-top:20px;
+	padding-bottom:45px;
+	background-size:cover;
+	height:500px;
+}
+.logoCont{
+	width:100%;
+	max-width:160px;
+	float:left;
+	margin-left:0px;
+	margin-right:20px;
+}
+.logoCont img{
+	width:100%;
+	height:auto;
+}
+.estdTxt{
+	font-size:17px;
+	line-height:30px;
+	font-weight:600;
+	text-align:center;
+}
+.nameCont{
+	width:100%;
+	max-width:350px;
+	float:left;
+}
+.milk_midnapore{
+	font-size:30px;
+	line-height:40px;
+	font-weight:800;
+	padding-bottom:10px;
+}
+.natural_cow_milk{
+	font-size:17px;
+}
+.companyName{
+	font-size:17px;
+	line-height:25px;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:80px;
+	float:right;
+}
+.biswaBanglaCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:100px;
+}
+.yearsCont{
+	width:100%;
+	max-width:250px;
+	float:left;
+}
+.yearsCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeTxtCont{
+	width:100%;
+	max-width:400px;
+	float:right;
+	margin:0px;
+}
+.welcomeTxt{
+	font-size:16px;
+	line-height:30px;
+	text-align:justify;
+	font-weight:400;
+}
+.chairmanLft{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanTxtCont{
+	max-width:100%;
+	float:left;
+}
+.chairmanHead{
+	font-size:32px;
+	line-height:42px;
+	font-weight:800;
+}
+.videoBox{
+	width:100%;
+	max-width:350px;
+	float:left;
+	padding-top:50px;
+	clear:both;
+}
+.ftrCont02{
+	width:100%;
+	max-width:280px;
+	float:left;
+	margin-right:0px;
+}
+.ftrCont03{
+	width:100%;
+	max-width:300px;
+	float:left;
+	margin-right:65px;
+	margin-top:50px;
+	clear:left;
+}
+.ftrCont04{
+	width:100%;
+	max-width:240px;
+	float:left;
+	margin-top:50px;
+	clear:right;
+}
+.inner_top_bg{
+	background:url(113039inner_top_bg_992.jpg) 0 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:55px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:120px;
+	float:left;
+	margin-right:50px;
+}
+.inrLogoCont img{
+	width:100%;
+	height:auto;
+}
+.innerBg{
+	background:url(113039introduction_bg_992.jpg) 50% 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:150px;
+}
+.innerHeading{
+	font-size:30px;
+	line-height:40px;
+}
+.innerText{
+	font-size:17px;
+	line-height:33px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.8);
+	max-width:92%;
+	padding:50px 30px;
+}
+.mimulProduct{
+	width:100%;
+	max-width:400px;
+	float:left;
+}
+.mimulProductPic{
+	width:100%;
+	max-width:280px;
+	float:right;
+}
+.paneerAdBox{
+	width:100%;
+	max-width:100px;
+	height:140px;
+}
+.videoCont{
+	width:100%;
+	max-width:300px;
+	float:left;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width:767px) and (min-width:600px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+.scrollTxt{
+	font-size:17px;
+	line-height:22px;
+	font-weight:400;
+}
+.top_bg{
+	background:url(113039top_bg_768.jpg) 0% 0% no-repeat;
+	padding-top:15px;
+	height:580px;
+	background-size:cover;
+}
+.logoCont{
+	width:100%;
+	max-width:150px;	
+	position:absolute;
+	left:0;
+	top:60px;
+	
+}
+.logoCont img{
+	width:100%;
+	height:auto;
+}
+.estdTxt{
+	font-size:18px;
+	line-height:30px;
+	font-weight:700;
+	text-align:center;
+}
+.nameCont{
+	width:100%;
+	max-width:550px;
+	float:left;
+	margin-top:100px;
+}
+.milk_midnapore{
+	font-size:7vw;
+	line-height:50px;
+	font-weight:800;
+}
+.natural_cow_milk{
+	font-size:17px;
+	line-height:36px;
+}
+.companyName{
+	font-size:17px;
+	line-height:36px;
+	margin-bottom:15px;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:80px;
+	position:absolute;
+	right:0;
+	top:60px;
+}
+.biswaBanglaCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:100px;
+}
+.yearsCont{
+	width:100%;
+	max-width:300px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.yearsCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeTxtCont{
+	max-width:100%;
+	float:left;
+	margin:0 0 40px 0;
+}
+.welcomeTxt{
+	font-size:16px;
+	line-height:30px;
+	text-align:justify;
+	font-weight:400;
+}
+.videoBox{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanLft{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanTxtCont{
+	max-width:100%;
+	float:left;
+}
+.chairmanHead{
+	font-size:30px;
+	line-height:40px;
+	font-weight:800;
+}
+.homeProductBg{
+	background:url(113039product_bg_768.jpg) 50% 100% no-repeat #ad5ab0;	
+	padding-top:60px;
+	padding-bottom:155px;
+}
+.homeProductHead{
+	font-size:70px;
+	line-height:70px;
+	font-weight:bold;
+	text-align:center;
+}
+.homeProductTag{
+	font-size:16px;
+	line-height:25px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+}
+.ftrCont01{
+	width:100%;
+	max-width:220px;
+	float:left;
+	margin-right:0px;
+}
+.ftrCont02{
+	width:100%;
+	max-width:280px;
+	float:right;
+	margin-right:0px;
+}
+.ftrCont03{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+	margin-top:50px;
+	clear:left;
+}
+.ftrCont04{
+	max-width:100%;
+	float:left;
+	margin-top:50px;
+}
+.inner_top_bg{
+	background:url(113039inner_top_bg_600.jpg) 0 100% no-repeat #fff;
+	padding-top:20px;
+	padding-bottom:55px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:120px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.inrLogoCont img{
+	width:100%;
+	height:auto;
+}
+.innerBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:110px;
+}
+.innerHeading{
+	font-size:27px;
+	line-height:38px;
+}
+.innerText{
+	font-size:17px;
+	line-height:33px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.8);
+	max-width:90%;
+	padding:30px;
+}
+.mimulProduct{
+	max-width:100%;
+	float:left;
+}
+.mimulProductPic{
+	width:100%;
+	max-width:400px;
+	float:left;
+	margin-top:20px;
+}
+.paneerAdBox{
+	width:100%;
+	max-width:120px;
+	height:140px;
+}
+.videoCont{
+	width:100%;
+	max-width:360px;
+	float:left;
+	margin-right:0px;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:599px) and (min-width:480px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+.scrollBg{
+	padding:12px 0;
+}
+.scrollTxt{
+	font-size:17px;
+	line-height:22px;
+	font-weight:400;
+}
+.top_bg{
+	background:url(113039top_bg_320.jpg) 0% 100% no-repeat;
+	padding-top:15px;
+	height:530px;
+}
+.logoCont{
+	width:100%;
+	max-width:140px;
+	left:0;
+	top:70px;
+	position:absolute;
+	margin-left:10px;
+}
+.logoCont img{
+	width:100%;
+	height:auto;
+}
+.estdTxt{
+	font-size:18px;
+	line-height:30px;
+	font-weight:600;
+	text-align:center;
+	margin-bottom:15px;
+}
+.nameCont{
+	width:100%;
+	max-width:550px;
+	float:none;
+	margin:0 auto;
+	margin-top:100px;
+}
+.milk_midnapore{
+	font-size:8vw;
+	line-height:45px;
+}
+.natural_cow_milk{
+	font-size:17px;
+	line-height:36px;
+}
+.companyName{
+	font-size:18px;
+	line-height:26px;
+	font-weight:800;
+	padding-top:15px;
+	margin-bottom:10px;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:70px;
+	right:0;
+	top:70px;
+	position:absolute;
+}
+.biswaBanglaCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:150px;
+}
+.yearsCont{
+	width:100%;
+	max-width:260px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+.yearsCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeTxtCont{
+	max-width:100%;
+	float:left;
+	margin:0 0 40px 0;
+}
+.welcomeTxt{
+	font-size:16px;
+	line-height:30px;
+	text-align:justify;
+	font-weight:400;
+}
+.videoBox{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanLft{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanTxtCont{
+	max-width:100%;
+	float:left;
+}
+.chairmanHead{
+	font-size:28px;
+	line-height:38px;
+	font-weight:800;
+}
+.homeProductBg{
+	background:url(113039product_bg_resp.jpg) 50% 100% no-repeat #ad5ab0;	
+	padding-top:50px;
+	padding-bottom:180px;
+}
+.homeProductHead{
+	font-size:65px;
+	line-height:70px;
+	font-weight:bold;
+	text-align:center;
+}
+.homeProductTag{
+	font-size:15px;
+	line-height:25px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+}
+.ftrCont01{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+	margin-bottom:50px;
+}
+.ftrCont02{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+}
+.ftrCont03{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+	margin-top:50px;
+	clear:left;
+}
+.ftrCont04{
+	max-width:100%;
+	float:left;
+	margin-top:50px;
+}
+.inner_top_bg{
+	background:url(113039inner_top_bg_600.jpg) 0 100% no-repeat #fff;
+	padding-top:20px;
+	padding-bottom:55px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:120px;
+	float:none;
+	margin:0 auto;
+}
+.inrLogoCont img{
+	width:100%;
+	height:auto;
+}
+.innerBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:110px;
+}
+.innerHeading{
+	font-size:25px;
+	line-height:35px;
+	margin-bottom:10px;
+}
+.innerText{
+	font-size:17px;
+	line-height:33px;
+}
+.mimulBg{
+	background:url(113039about_mimul_bg.jpg) 50% 0 no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.8);
+	max-width:86%;
+	padding:30px;
+}
+.mimulProduct{
+	max-width:100%;
+	float:left;
+}
+.mimulProductPic{
+	width:100%;
+	max-width:400px;
+	float:left;
+	margin-top:20px;
+}
+.paneerAdBox{
+	width:100%;
+	max-width:120px;
+	height:140px;
+}
+.videoCont{
+	width:100%;
+	max-width:360px;
+	float:left;
+	margin-right:0px;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+}
+
+
+@media screen and (max-width:479px) and (min-width:320px){
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	height:auto;
+}
+.scrollBg{
+	padding:12px 0;
+}
+.scrollTxt{
+	font-size:16px;
+	line-height:22px;
+	font-weight:400;
+}
+.top_bg{
+	background:url(113039top_bg_320.jpg) 10% 100% no-repeat;
+	padding-top:15px;
+	padding-bottom:20px;
+	height:580px;
+}
+.logoCont{
+	width:100%;
+	max-width:200px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.logoCont img{
+	width:100%;
+	height:auto;
+}
+.estdTxt{
+	font-size:17px;
+	line-height:30px;
+	font-weight:700;
+}
+.nameCont{
+	width:100%;
+	max-width:550px;
+	float:none;
+	margin:0 auto;
+}
+.milk_midnapore{
+	font-size:8vw;
+	line-height:40px;
+	font-weight:800;
+	padding-bottom:5px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.natural_cow_milk{
+	font-size:16px;
+	line-height:30px;
+}
+.companyName{
+	font-size:16px;
+	line-height:25px;
+}
+.biswaBanglaCont{
+	width:100%;
+	max-width:80px;
+	float:none;
+	margin:0 auto;
+	margin-top:15px;
+}
+.biswaBanglaCont img{
+	width:100%;
+}
+.welcomeBg{
+	background:url(113039introduction_bg_resp.jpg) 0 100% no-repeat #fff;
+	padding-top:40px;
+	padding-bottom:120px;
+}
+.yearsCont{
+	width:100%;
+	max-width:200px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.yearsCont img{
+	width:100%;
+	height:auto;
+}
+.welcomeTxtCont{
+	max-width:100%;
+	float:left;
+	margin:0 0 30px 0;
+}
+.welcomeTxt{
+	font-size:16px;
+	line-height:30px;
+	text-align:justify;
+	font-weight:400;
+}
+.videoBox{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanBg{
+	padding-top:40px;
+	padding-bottom:60px;
+}
+.chairmanLft{
+	width:100%;
+	max-width:360px;
+	float:none;
+	margin:0 auto;
+}
+.chairmanLft img{
+	width:100%;
+	height:auto;
+}
+.chairmanTxtCont{
+	max-width:100%;
+	float:left;
+}
+.chairmanHead{
+	font-size:25px;
+	line-height:35px;
+	font-weight:800;
+}
+.chairmanTxt{
+	font-size:16px;
+	line-height:33px;
+	font-weight:400;
+}
+.homeProductBg{
+	background:url(113039product_bg_resp.jpg) 0% 100% no-repeat #ad5ab0;	
+	padding-top:80px;
+	padding-bottom:150px;
+}
+.homeProductHead{
+	font-size:14vw;
+	line-height:70px;
+	font-weight:bold;
+	text-align:center;
+}
+.homeProductTag{
+	font-size:16px;
+	line-height:24px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+}
+.ftrCont01{
+	max-width:100%;
+	margin-right:0px;
+}
+.ftrCont02{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+	margin-top:50px;
+}
+.ftrCont03{
+	max-width:100%;
+	float:left;
+	margin-right:0px;
+	margin-top:50px;
+}
+.ftrCont04{
+	max-width:100%;
+	float:left;
+	margin-top:50px;
+}
+.footerBtn{
+	font-size:16px;
+	line-height:35px;
+	font-weight:500;
+}
+.footerBtn01{	
+	font-size:16px;
+	line-height:35px;
+	font-weight:500;
+}
+.footerHead{
+	font-size:20px;
+	line-height:30px;
+	font-weight:600;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.footerText{
+	font-size:16px;
+	line-height:33px;
+	font-weight:400;
+}
+.footerLnk{
+	font-size:16px;
+	line-height:33px;
+	font-weight:400;
+}
+.inner_top_bg{
+	background:url(113039inner_top_bg_320.jpg) 0 100% no-repeat #fff;
+	padding-top:20px;
+	padding-bottom:35px;
+}
+.inrLogoCont{
+	width:100%;
+	max-width:120px;
+	float:none;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.inrLogoCont img{
+	width:100%;
+	height:auto;
+}
+.innerBg{
+	background:url(113039introduction_bg_resp.jpg) 50% 100% no-repeat #fff;
+	padding-top:30px;
+	padding-bottom:110px;
+}
+.innerHeading{
+	font-size:25px;
+	line-height:32px;
+	margin-bottom:10px;
+	font-weight:900;
+}
+.innerText{
+	font-size:16px;
+	line-height:33px;
+}
+.mimulBg{
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.mimulTxtCont{
+	background:rgba(256,256,256,0.9);
+	max-width:83%;
+	padding:30px;
+}
+.valueBox{
+	width:100%;
+	max-width:330px;
+	float:left;
+	margin-bottom:20px;
+	margin-right:0;
+}
+.valueText{
+	font-size:16px;
+	line-height:55px;
+	font-weight:400;
+}
+.productCircle{
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+	font-size:20px;
+}
+.mimulProductName{
+	font-size:20px;
+	line-height:40px;
+}
+.mimulProduct{
+	max-width:100%;
+	float:left;
+}
+.mimulProductPic{
+	max-width:100%;
+	float:left;
+	margin-top:20px;
+}
+h6 a {
+	font-size:16px;
+	line-height:27px;
+
+}
+.paneerAdBox{
+	width:100%;
+	max-width:120px;
+	height:140px;
+}
+.videoCont{
+	width:100%;
+	max-width:360px;
+	float:left;
+	margin-right:0px;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+
+}
+
+
+
+
+
+media{}
+
+
+
+/*Enquiry CSS*/
+.formCont{
+  max-width:500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  color:#000;
+}
+
+.formCont02{
+  max-width:500px;
+  width: 100%;
+  position: relative;
+  color:#000;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact select,
+#contact button[type="submit"] {
+  font-family: 'Open Sans', sans-serif;
+  color:#000;
+}
+
+#contact {
+  rgba(249, 249, 249, 0.2);
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  color:#000;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact select,
+#contact textarea {
+  width: 90%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  color:#000;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact select:hover
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact select{
+  max-width: 90%;
+  color: #888;
+  color:#000;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 90%;
+  resize: none;
+  color:#000;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  border: none;
+  background: #045564;
+  color: #FFF;
+  padding: 10px;
+  font-size: 15px;
+  margin: auto;
+  width: 65%;
+  display:block;
+  text-transform:uppercase;
+}
+
+#contact button[type="submit"]:hover {
+  background: #45a9bc;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+
+
+/*Captcha Start*/
+
+.capbox {
+	background-color: #045564;
+	border-width: 0px 12px 0px 0px;
+	display: inline-block;
+	*display: inline; zoom: 1; /* FOR IE7-8 */
+	padding: 15px;
+	margin: auto;
+  	width: 60%;
+	display:block;
+	}
+
+.capbox-inner {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background-color: #045564;
+	margin: 5px auto 0px auto;
+	padding: 10px;
+	}
+
+#CaptchaDiv {
+	font: bold 18px 'Open Sans', sans-serif;;
+	font-style: italic;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 4px;
+	text-align:center;
+	}
+
+#CaptchaInput { margin: 1px 0px 1px 0px; width: 180px;
+
+}
+
+
+
+
+
+
+
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; // for android
+    animation: 1s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('../cimage35/113039b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('../cimage35/113039a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
